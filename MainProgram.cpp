@@ -121,7 +121,6 @@ public:
         //   5. Allocate new memory: new char[m_length + 1]
         //   6. Copy string data using strcpy()
         //   7. Return *this
-        return *this;
         g_assignmentCount ++;
         if (this == &other){
             return *this;
